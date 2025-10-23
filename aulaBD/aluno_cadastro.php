@@ -5,22 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1> Cadastro de Aalunos </h1>
-    <form name="Enviar" method="POST" action="curso_cadastro.php">
-        <fieldset>
-            <p> Informe o nome do aluno: </p>
-            <input type="text" name="aluno">
 
-            
-            <p> Informe o nome do aluno: </p>
-            <select id="curso" name="Informatica " required>
+<?php include "menu.php" ?>
 
-            <br>
-            <br>
-            <input type="submit" name="Enviar" value="Cadastrar Aluno">
-</fieldset>
+<div class="conteudo">
 
+    <h3> Cadastro de Alunos </h3>
+    <form action="#" method="post">
+         <p>
+            Digite o nome do aluno <br>
+            <input type="text" name="nome">
+        </p>
+        <p>
+            Digite a cidade <br>
+            <input type="text" name="cidade">
+        </p>
+        <p>
+            Digite o estado <br>
+            <input type="text" name="estado">
+        </p>
+        <p>
+            <input type="submit" name="enviar" value="Cadastrar">
+</p>
+        </form>
+</div>
 </body>
 </html>
