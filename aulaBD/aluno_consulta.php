@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <?php include "menu.php"> ?>
+    <?php include "menu.php" ?>
     <div class="conteudo">
         <h3>Consulta de Alunos</h3>
 
@@ -22,7 +22,7 @@
 
            <tr>
             <td>1</td>
-            <td>Aana Livia</td>
+            <td>Ana Livia</td>
             <td>São José do Rio Pardo</td>
             <td>SP</td>
         </tr>
